@@ -10,11 +10,10 @@ public class Strings {
                 }
             }
             if(same==1){
-                unique += String.valueOf(str.charAt(i));
+                unique += str.substring(i,i+1);
             }
         }
         return unique;
     }
 
 }
-
