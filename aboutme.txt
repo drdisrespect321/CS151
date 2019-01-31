@@ -1,0 +1,12 @@
+Your name: Lei Jiang
+Your student ID: 013485693
+Your major: CS
+Your preferred email address: lei.jiang@sjsu.edu
+Check one: [ X] Undergraduate, [ ] Graduate, [ ] Open university 
+Repeating the class? [ ] Yes, [X ] No
+Place and semester where you took a programming course in Java: 18FAll, SJSU
+Course number and grade received: 49J, B+
+Place and semester where you took a course in data structures: 16Spring, De Anza
+Course number and grade received: A-
+Time it took you to answer the two questions below: 1hr
+Did you ask anyone for help? [ X] Yes, [ ] No
