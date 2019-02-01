@@ -11,19 +11,17 @@ public class Encoding
    }
    
    private static void generate(int m, int n, String gen, Set<String> result){
-      //1. if m=0 && n=0, then just return an empty string "".
+    
       if(m==0 && n==0){
          result.add(gen);
          return;
       }
 
-      // if m=0, generate the other possibility
       if(m == 0){
          generate(m, n-1, gen+"-", result);
          return;
       }
-      
-      // if n=0, generate the other possibility      
+            
       if(n == 0){
          generate(m-1, n, gen+".", result);
          return;
