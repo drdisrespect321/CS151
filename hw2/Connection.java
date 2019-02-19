@@ -194,11 +194,20 @@ public class Connection
           phone.speak(MAILBOX_MENU_TEXT);
       }
    }
-   
+   /**
+     Input from the user
+     @return input
+     */
+	
    String accumulatedKeys()
    {
 	   return accumulatedKeys;
    }
+   /**
+      Get the current state of the mailbox
+      
+      @return returen the state of the mail box
+    */
     
    int getState()
    {
