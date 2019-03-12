@@ -24,7 +24,6 @@ public class TimerTester
     	         }
     		  };
     		  
-    		  //event -> System.out.println("Hello, World");
       final int DELAY = 1000;
       Timer t = new Timer(DELAY, listener);
       t.start();
