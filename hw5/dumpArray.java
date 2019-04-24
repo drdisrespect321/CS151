@@ -13,11 +13,11 @@ public class DumpArray
 
     public static void main(String[] args)
     {
-        Object[] objects = {"abc", 99, "AAA", 0.001};
+        Object[] objects = {"abc", 99, "AAA", 0.001,new Rectangle(10,20)};
         
-        Rectangle[] rec = {new Rectangle(), new Rectangle()};
+       
         dumpArray(objects);
-        dumpArray(rec);
+     
         
     }
 
